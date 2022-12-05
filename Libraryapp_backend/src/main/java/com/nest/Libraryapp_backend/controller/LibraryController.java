@@ -15,4 +15,9 @@ public class LibraryController {
     public String Register(){
         return "register the user";
     }
+
+    @PostMapping("/login")
+    public String Login(){
+        return "User login";
+    }
 }
