@@ -20,4 +20,9 @@ public class LibraryController {
     public String BookEntry(){
         return "book entry";
     }
+
+    @PostMapping("/view")
+    public String ViewAll(){
+        return "View all books";
+    }
 }
